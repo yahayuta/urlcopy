@@ -1,0 +1,21 @@
+{
+    "name": "Auto URL Copy",
+    "version": "0.0.1",
+    "description": "ページを開いたタイミングでタイトルとURLをコピーします",
+    "manifest_version": 3,
+    "permissions": ["tabs"],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*/*", "http://*/*"],
+            "js": ["content_script.js"]
+        }
+    ],
+    "icons": {
+        "16": "urlautocopy16.png",
+        "48": "urlautocopy48.png",
+        "128": "urlautocopy128.png"
+    }
+}
