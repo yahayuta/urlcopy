@@ -1,5 +1,5 @@
 {
-    "name": "Auto URL Copy",
+    "name": "URL Auto Copy",
     "version": "0.0.1",
     "description": "ページを開いたタイミングでタイトルとURLをコピーします",
     "manifest_version": 3,
