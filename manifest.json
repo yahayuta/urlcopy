@@ -1,6 +1,6 @@
 {
     "name": "URL Auto Copy",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "ページを開いたタイミングでタイトルとURLをコピーします",
     "manifest_version": 3,
     "permissions": ["tabs"],
@@ -17,5 +17,13 @@
         "16": "urlautocopy16.png",
         "48": "urlautocopy48.png",
         "128": "urlautocopy128.png"
+    },
+    "action": {
+        "default_icon": {
+            "16": "urlautocopy16.png",
+            "48": "urlautocopy48.png",
+            "128": "urlautocopy128.png"
+        },
+        "default_popup": "popup.html"
     }
 }
